@@ -9,7 +9,7 @@ const Projects = () => (
       <SectionDivider />
       <SectionTitle main>Projects</SectionTitle>
       <GridContainer>
-          {projects.map(({id, image, title, description, tags, source, visit}) => (
+          {projects.map(({id, image, title, description, tags, source, visit, appstore, video, jar}) => (
               <BlogCard key={id}>
                   <Img src={image} />
                   <TitleContent>
@@ -26,8 +26,11 @@ const Projects = () => (
                       </TagList>
                   </div>
                   <UtilityList>
-                      <ExternalLinks href={visit}>Visit</ExternalLinks>
-                      <ExternalLinks href={source}>Source</ExternalLinks>
+                      { (visit !== undefined) ?<ExternalLinks href={visit}>More Info</ExternalLinks> : "" }
+                      { (video !== undefined) ? <ExternalLinks href={video}>Video</ExternalLinks> : "" }
+                      { (appstore !== undefined) ? <a href={appstore}><img src="images/appstore download button.svg" alt="AppStore download link" /></a> : "" }
+                      { (source !== undefined) ? <ExternalLinks href={source}>Source Code</ExternalLinks> : "" }
+                      { (jar !== undefined) ? <ExternalLinks href={jar}>JAR</ExternalLinks> : "" }
                   </UtilityList>
               </BlogCard>
           ))}

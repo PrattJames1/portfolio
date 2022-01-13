@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import {DiApple, DiFirebase, DiPhotoshop, DiReact, DiUnitySmall, DiWordpress, DiZend} from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -7,9 +7,9 @@ const Technologies = () =>  (
   <Section id={"tech"}>
       <SectionDivider />
       <br />
-          <SectionTitle>Technologies</SectionTitle>
+          <SectionTitle>Tech</SectionTitle>
           <SectionText>
-              I've worked with a range of technologies...
+              I've worked with a range of different tech, from web development to game development.
           </SectionText>
       <List>
           <ListItem>
@@ -18,7 +18,7 @@ const Technologies = () =>  (
                   <ListTitle>Front-End</ListTitle>
                   <ListParagraph>
                       Experience with <br />
-                      React.js
+                      React.js, CSS, Bootstrap
                   </ListParagraph>
               </ListContainer>
           </ListItem>
@@ -28,17 +28,37 @@ const Technologies = () =>  (
                   <ListTitle>Back-End</ListTitle>
                   <ListParagraph>
                       Experience with <br />
-                      Node and Databases
+                      Node.js, Express, SQL
                   </ListParagraph>
               </ListContainer>
           </ListItem>
           <ListItem>
-              <DiZend size="3rem" />
+              <DiPhotoshop size="3rem" />
               <ListContainer>
                   <ListTitle>UI/UX</ListTitle>
                   <ListParagraph>
                       Experience with <br />
-                      tools like Figma
+                      Figma, InVision, Photoshop
+                  </ListParagraph>
+              </ListContainer>
+          </ListItem>
+          <ListItem>
+              <DiUnitySmall size="3rem" />
+              <ListContainer>
+                  <ListTitle>Unity</ListTitle>
+                  <ListParagraph>
+                      Experience with <br />
+                      C#, VR, Multiplayer
+                  </ListParagraph>
+              </ListContainer>
+          </ListItem>
+          <ListItem>
+              <DiApple size="3rem" />
+              <ListContainer>
+                  <ListTitle>Mobile</ListTitle>
+                  <ListParagraph>
+                      Experience with <br />
+                      Swift, XCode, Deploying Apps
                   </ListParagraph>
               </ListContainer>
           </ListItem>

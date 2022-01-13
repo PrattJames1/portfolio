@@ -9,12 +9,12 @@ const Hero = (props) => (
         <LeftSection>
             <SectionTitle main center>
                 Welcome,<br />
-                I am James Pratt
+                I'm James Pratt
             </SectionTitle>
             <SectionText>
                 I am a Veteran and Computer Science graduate seeking a job as a Software Engineer. I have experience in C# and mobile development and have a passion for working in the space industry.
             </SectionText>
-            <Button onClick={() => window.location = 'https://google.com'}> Learn More </Button>
+            <Button onClick={() => window.location = 'https://www.linkedin.com/in/jamesprattcs/'}> Contact </Button>
         </LeftSection>
     </Section>
 );

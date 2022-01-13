@@ -1,7 +1,18 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+import {
+    DiApple,
+    DiAppstore, DiAsterisk,
+    DiAtom,
+    DiBrackets, DiCodeBadge, DiCodepen, DiCoffeescript, DiCompass,
+    DiCssdeck,
+    DiEmber,
+    DiJava,
+    DiMozilla,
+    DiPhotoshop,
+    DiPhp, DiStackoverflow, DiSwift, DiUnitySmall
+} from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
@@ -10,7 +21,7 @@ const Header = () =>  (
       <Div1>
           <Link href={"/"}>
                <a style={{ display: "flex", alignItems: "center", color: 'white', marginBottom: '20px'}}>
-                   <DiCssdeck size={"3rem"} /> <Span>Portfolio</Span>
+                   <DiCodeBadge size={"3rem"} /> <Span>Portfolio</Span>
                </a>
           </Link>
       </Div1>
@@ -22,7 +33,7 @@ const Header = () =>  (
           </li>
           <li>
               <Link href={"#tech"}>
-                  <NavLink>Technologies</NavLink>
+                  <NavLink>Tech</NavLink>
               </Link>
           </li>
           <li>
@@ -32,13 +43,13 @@ const Header = () =>  (
           </li>
       </Div2>
       <Div3>
-          <SocialIcons href={"https://github.com"}>
+          <SocialIcons href={"https://github.com/PrattJames1"}>
               <AiFillGithub size={"3rem"} />
           </SocialIcons>
-          <SocialIcons href={"https://linkedin.com"}>
+          <SocialIcons href={"https://www.linkedin.com/in/jamesprattcs/"}>
               <AiFillLinkedin size={"3rem"} />
           </SocialIcons>
-          <SocialIcons href={"https://instagram.com"}>
+          <SocialIcons href={"https://www.instagram.com/prattjames1/"}>
               <AiFillInstagram size={"3rem"} />
           </SocialIcons>
       </Div3>
