@@ -5,8 +5,8 @@ import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
   { number: 2, text: 'Years in the software industry', },
-  { number: 85, text: 'Software sprints closed out and peer reviewed', },
-  { number: 5, text: 'Major UI components built designed and deployed in React and Typescript', },
+  { number: 85, text: 'Software sprints peer reviewed', },
+  { number: 5, text: 'Major React components built and deployed', },
   { number: 9, text: 'Years Served in the Air Force'},
 ];
 
