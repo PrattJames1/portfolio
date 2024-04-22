@@ -12,7 +12,8 @@ const Hero = (props) => (
                 I'm James Pratt
             </SectionTitle>
             <SectionText>
-                I am a full-stack Software Engineer with 2 years of on the job experience. I have experience in web apps and mobile development, and have a passion for automating tools for musicians - as a musician myself.
+                I'm a full-stack Software Engineer with two years of on-the-job experience.<br />
+                I build React applications for Aeris LLC and work on iOS apps in my free time.
             </SectionText>
             <Button onClick={() => window.location = 'https://www.linkedin.com/in/jamesprattcs/'}> Contact </Button>
         </LeftSection>
