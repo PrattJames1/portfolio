@@ -10,12 +10,12 @@ const Footer = () => {
         <LinkList>
             <LinkColumn>
                 <LinkTitle>Email</LinkTitle>
-                <LinkItem href={"mailto:justafluke.io@gmail.com"}>justafluke.io@gmail.com</LinkItem>
+                <LinkItem href={"mailto:swe.pratt@gmail.com"}>swe.pratt@gmail.com</LinkItem>
             </LinkColumn>
         </LinkList>
         <SocialIconsContainer>
             <CompanyContainer>
-                <Slogan>Feel free to contact me if you want me on your team! </Slogan>
+                <Slogan>Contact me if you'd be interested to have me on your team. </Slogan>
             </CompanyContainer>
             <SocialContainer>
             <SocialIcons href={"https://github.com/PrattJames1"}>
@@ -23,9 +23,6 @@ const Footer = () => {
             </SocialIcons>
             <SocialIcons href={"https://www.linkedin.com/in/jamesprattcs/"}>
                 <AiFillLinkedin size={"3rem"} />
-            </SocialIcons>
-            <SocialIcons href={"https://www.instagram.com/prattjames1/"}>
-                <AiFillInstagram size={"3rem"} />
             </SocialIcons>
             </SocialContainer>
         </SocialIconsContainer>

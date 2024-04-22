@@ -8,11 +8,11 @@ const Hero = (props) => (
     <Section row nopadding>
         <LeftSection>
             <SectionTitle main center>
-                Welcome,<br />
+                Hi there,<br />
                 I'm James Pratt
             </SectionTitle>
             <SectionText>
-                I am a Veteran and Computer Science graduate seeking a job as a Software Engineer. I have experience in C# and mobile development and have a passion for working in the space industry.
+                I am a full-stack Software Engineer with 2 years of on the job experience. I have experience in web apps and mobile development, and have a passion for automating tools for musicians - as a musician myself.
             </SectionText>
             <Button onClick={() => window.location = 'https://www.linkedin.com/in/jamesprattcs/'}> Contact </Button>
         </LeftSection>

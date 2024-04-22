@@ -9,26 +9,33 @@ const Technologies = () =>  (
       <br />
           <SectionTitle>Tech</SectionTitle>
           <SectionText>
-              I've worked with a range of different tech, from web development to game development.
+              I have a range of tech expertise, from web development to game development.
           </SectionText>
       <List>
+            <ListItem>
+              <DiApple size="3rem" />
+              <ListContainer>
+                  <ListTitle>Mobile</ListTitle>
+                  <ListParagraph>
+                      Swift, XCode, Deploying/maintaining apps
+                  </ListParagraph>
+              </ListContainer>
+          </ListItem>
           <ListItem>
               <DiReact size="3rem" />
               <ListContainer>
-                  <ListTitle>Front-End</ListTitle>
+                  <ListTitle>Frontend</ListTitle>
                   <ListParagraph>
-                      Experience with <br />
-                      React.js, CSS, Bootstrap
+                      Typescript, React, Angular
                   </ListParagraph>
               </ListContainer>
           </ListItem>
           <ListItem>
               <DiFirebase size="3rem" />
               <ListContainer>
-                  <ListTitle>Back-End</ListTitle>
+                  <ListTitle>Backend</ListTitle>
                   <ListParagraph>
-                      Experience with <br />
-                      Node.js, Express, SQL
+                      Java, Spring boot
                   </ListParagraph>
               </ListContainer>
           </ListItem>
@@ -37,8 +44,7 @@ const Technologies = () =>  (
               <ListContainer>
                   <ListTitle>UI/UX</ListTitle>
                   <ListParagraph>
-                      Experience with <br />
-                      Figma, InVision, Photoshop
+                      Photoshop, Sketch, FreeForm
                   </ListParagraph>
               </ListContainer>
           </ListItem>
@@ -47,18 +53,7 @@ const Technologies = () =>  (
               <ListContainer>
                   <ListTitle>Unity</ListTitle>
                   <ListParagraph>
-                      Experience with <br />
-                      C#, VR, Multiplayer
-                  </ListParagraph>
-              </ListContainer>
-          </ListItem>
-          <ListItem>
-              <DiApple size="3rem" />
-              <ListContainer>
-                  <ListTitle>Mobile</ListTitle>
-                  <ListParagraph>
-                      Experience with <br />
-                      Swift, XCode, Deploying Apps
+                      C#
                   </ListParagraph>
               </ListContainer>
           </ListItem>
