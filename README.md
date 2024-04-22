@@ -1,3 +1,3 @@
 ## Personal Portfolio
 
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+![Portfolio Website](https://github.com/PrattJames1/portfolio/blob/main/public/images/PortfolioScreenshot.jpg)
