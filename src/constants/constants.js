@@ -5,8 +5,6 @@ export const projects = [
     image: '/images/5.png',
     tags: ['Javascript', 'CSS/HTML', 'Hugo'],
     visit: 'https://furtherconfusion.org/',
-    // appstore: 'https://apps.apple.com/us/app/planty-of-work/id1598961338',
-    // video: 'https://www.youtube.com/watch?v=RBaTg_SEBLM&ab_channel=JamesPratt',
     id: 0,
   },
   {
