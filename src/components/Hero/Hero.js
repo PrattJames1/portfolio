@@ -13,7 +13,7 @@ const Hero = (props) => (
             </SectionTitle>
             <SectionText>
                 I'm a full-stack Software Engineer with two years of on-the-job experience.<br />
-                I build React applications for Aeris LLC and work on iOS apps in my free time.
+                I built React applications for Aeris LLC and freelance as a frontend developer.
             </SectionText>
             <Button onClick={() => window.location = 'https://www.linkedin.com/in/jamesprattcs/'}> Contact </Button>
         </LeftSection>

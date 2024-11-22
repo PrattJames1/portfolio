@@ -9,24 +9,15 @@ const Technologies = () =>  (
       <br />
           <SectionTitle>Tech</SectionTitle>
           <SectionText>
-              I have a range of tech expertise, from web development to game development.
+              I have a range of tech expertise, from web development to game development. I am most comfortable in the frontend.
           </SectionText>
       <List>
-            <ListItem>
-              <DiApple size="3rem" />
-              <ListContainer>
-                  <ListTitle>Mobile</ListTitle>
-                  <ListParagraph>
-                      Swift, XCode, Deploying/maintaining apps
-                  </ListParagraph>
-              </ListContainer>
-          </ListItem>
           <ListItem>
               <DiReact size="3rem" />
               <ListContainer>
                   <ListTitle>Frontend</ListTitle>
                   <ListParagraph>
-                      Typescript, React, Angular
+                      Typescript, React, Javascript/CSS/HTML, Angular
                   </ListParagraph>
               </ListContainer>
           </ListItem>
@@ -35,25 +26,25 @@ const Technologies = () =>  (
               <ListContainer>
                   <ListTitle>Backend</ListTitle>
                   <ListParagraph>
-                      Java, Spring boot
+                      Java, Spring Boot, C#, ASP.NET Core, Entity Framework
                   </ListParagraph>
               </ListContainer>
           </ListItem>
           <ListItem>
               <DiPhotoshop size="3rem" />
               <ListContainer>
-                  <ListTitle>UI/UX</ListTitle>
+                  <ListTitle>Tools</ListTitle>
                   <ListParagraph>
-                      Photoshop, Sketch, FreeForm
+                      Azure, Docker, Git, Bash
                   </ListParagraph>
               </ListContainer>
           </ListItem>
           <ListItem>
-              <DiUnitySmall size="3rem" />
+              <DiApple size="3rem" />
               <ListContainer>
-                  <ListTitle>Unity</ListTitle>
+                  <ListTitle>Mobile</ListTitle>
                   <ListParagraph>
-                      C#
+                      Unity, XCode, Maintaining Apps on Hostinger
                   </ListParagraph>
               </ListContainer>
           </ListItem>
